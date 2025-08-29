@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-28T15:48:51 IST" name="Default suite" finished-at="2025-08-28T15:49:39 IST" duration-ms="48044">
+    <groups>
+    </groups>
+    <test started-at="2025-08-28T15:48:51 IST" name="Default test" finished-at="2025-08-28T15:49:39 IST" duration-ms="48044">
+      <class name="testcases.tutorsButton">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.tutorsButton@2e005c4b]" started-at="2025-08-28T15:48:51 IST" name="setup" finished-at="2025-08-28T15:49:36 IST" duration-ms="44841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TutorBtns()[pri:0, instance:testcases.tutorsButton@2e005c4b]" started-at="2025-08-28T15:49:36 IST" name="TutorBtns" finished-at="2025-08-28T15:49:39 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TutorBtns -->
+      </class> <!-- testcases.tutorsButton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
