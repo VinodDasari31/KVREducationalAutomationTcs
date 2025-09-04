@@ -43,7 +43,7 @@ public class KVRHomePage {
 	
 	@AfterClass
 	public void Close() {
-	//driver.close();
+	driver.quit();
 	
 	}
 

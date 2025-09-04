@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.tutorsButton">
+      <class name="testcases.KVRRegistrationTest">
         <methods>
-          <include name="TutorBtns"/>
           <include name="setup"/>
+          <include name="Registration"/>
         </methods>
-      </class> <!-- testcases.tutorsButton -->
+      </class> <!-- testcases.KVRRegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
