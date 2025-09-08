@@ -12,7 +12,8 @@
       <!--class name="testcases.KVRHomePage"/-->
       <!--class name="testcases.tutorsButton"/-->
       <!--class name="testcases.KVRLoginTest"/-->
-      <class name ="testcases.KVRRegistrationTest"/>
+      <!--class name ="testcases.KVRRegistrationTest"/-->
+      <class name ="testcases.ForgotPasswordTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -35,4 +35,17 @@ public class LogicPage extends KvrConstructorPage {
 			return false;
 		}
 	}
+	// OTP screen for ForgotPage
+	
+	@FindBy(xpath="//input[@id='Otp']")
+	WebElement otpPage;
+	
+	public boolean ForgotOtpPage() {
+		try {
+			return(otpPage.isDisplayed());
+		}
+		catch(Exception e3) {
+			return false;
+		}
+	}
 }
