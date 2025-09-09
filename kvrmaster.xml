@@ -13,7 +13,8 @@
       <!--class name="testcases.tutorsButton"/-->
       <!--class name="testcases.KVRLoginTest"/-->
       <!--class name ="testcases.KVRRegistrationTest"/-->
-      <class name ="testcases.ForgotPasswordTest"/>
+      <!--class name ="testcases.ForgotPasswordTest"/-->
+      <class name ="testcases.PersonalDetailsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

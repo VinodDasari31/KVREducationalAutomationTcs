@@ -47,5 +47,21 @@ public class LogicPage extends KvrConstructorPage {
 		catch(Exception e3) {
 			return false;
 		}
+		
+	}
+	
+	
+	// Forward to Contact page
+	
+	@FindBy(xpath="//input[@id='PhoneNumber']")
+	WebElement contact;
+	
+	public boolean ContactLogic() {
+		try {
+			return(contact.isDisplayed());
+		}
+		catch(Exception e4) {
+			return false;
+		}
 	}
 }

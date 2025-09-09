@@ -50,6 +50,8 @@ public Properties k;
 		//driver.get("http://srjapidev.jobsupportguru.com/");
 		//driver.get(k.getProperty("Url"));
 		driver.get(k.getProperty("Url2"));
+		//driver.get(k.getProperty("Url3"));
+		
 		driver.manage().window().maximize();
 		
 		
