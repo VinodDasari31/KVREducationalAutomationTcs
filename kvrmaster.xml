@@ -14,7 +14,8 @@
       <!--class name="testcases.KVRLoginTest"/-->
       <!--class name ="testcases.KVRRegistrationTest"/-->
       <!--class name ="testcases.ForgotPasswordTest"/-->
-      <class name ="testcases.PersonalDetailsTest"/>
+      <!--class name ="testcases.PersonalDetailsTest"/-->
+      <class name = "testcases.ContactDetailsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

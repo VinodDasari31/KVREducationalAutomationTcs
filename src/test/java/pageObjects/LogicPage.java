@@ -64,4 +64,18 @@ public class LogicPage extends KvrConstructorPage {
 			return false;
 		}
 	}
+	
+	// Contact Details logic
+	
+	@FindBy(xpath="//div[@class='tu-boxsmtitle']")
+	WebElement title;
+	
+	public boolean Title() {
+		try {
+			return(title.isDisplayed());
+		}
+		catch(Exception e5) {
+			return false;
+		}
+	}
 }

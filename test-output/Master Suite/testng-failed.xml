@@ -7,12 +7,12 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.PersonalDetailsTest">
+      <class name="testcases.ContactDetailsTest">
         <methods>
-          <include name="PersonalDetailsTCase"/>
+          <include name="ContactTestCase"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.PersonalDetailsTest -->
+      </class> <!-- testcases.ContactDetailsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
